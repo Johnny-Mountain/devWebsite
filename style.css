@@ -1,0 +1,177 @@
+/* global settings */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url("./images/barrow.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+    /* top of page constant across site */
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    padding: 20px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+.navBar ul {
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+}
+
+.navBar li {
+    margin-left: 10px;
+}
+
+.content {
+    height: 75vw;
+    flex: 1 0 auto;
+}
+
+.introduction {
+    padding: 30px;
+    text-align: center;
+}
+
+/* exclusive to home page */
+.introDesc {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.introDesc img {
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.introDesc p {
+    margin-left: 15px;
+    font: 15px 'Roboto Mono', monospace;
+    width: 600px;
+    text-align: left;
+}
+
+.introDesc ul {
+    margin-left: 25px;
+    text-align: left;
+}
+
+.introDescandTitle {
+    display: block;
+}
+
+.introDescandTitle p {
+    margin-top: 10px;
+}
+
+.imgList {
+    padding: 15px;
+    display: inline;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.imgListTitle {
+    text-align: center;
+}
+
+.imgRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.cryptidImgButton img {
+    float: left;
+    margin-left: 15px;
+    min-width: 282px;
+    height: 150px;
+}
+
+/* below is for the cryptid description page */
+.cryptidDesc {
+    display: inline-block;
+    justify-content: center;
+}
+
+.cryptidDesc img {
+    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cryptidDesc p {
+    margin-top: 15px;
+    margin-left: 15px;
+    font: 15px 'Roboto Mono', monospace;
+    width: 900px;
+    text-align: left;
+}
+
+/* Nuckelavee only */
+.nuckelaveeLinks {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Cryptid locations page */
+.locBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.cryptidList {
+    display: inline;
+}
+
+.cryptid {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cryptidDate {
+    margin-top: 60px;
+    margin-left: 10px;
+}
